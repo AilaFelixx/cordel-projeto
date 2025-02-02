@@ -1,0 +1,98 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+@media screen and (max-width:703px) {
+    img {
+        display: none;
+    }
+}
+
+:root {
+    --fontetitulo: 'Passion One';
+    --fontepadrao: 'Sriracha';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 350px;
+    text-align: center;
+}
+
+img {
+    padding: 35px;
+}
+
+h1 {
+    font-family: var(--fontetitulo);
+    font-size: 6.5em;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+header p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header a {
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    line-height: 3.6em;
+}
+
+main p {
+    padding-left: 36px;
+}
+
+section {
+    font-family: var(--fontepadrao);
+    font-size: 1.8em;
+}
+
+section p {
+    margin: 40px 10px 50px 10px;
+}
+
+.parallax {
+    width: 100%;
+    box-shadow: -0px 5px 10px rgba(0, 0, 0, 0.24) inset;
+}
+
+#joana {
+    background: green url(../imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+    padding: 10px;
+}
+
+#folhas {
+    background: wheat url(../imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    padding: 10px;
+
+}
+
+.dif {
+    background-color: rgba(0, 0, 0, 0.411);
+    color: white;
+    padding: 0px 30px;
+    max-width: 360px;
+}
+
+footer {
+    background-color: black;
+    font-family: var(--fontepadrao);
+    text-align: center;
+    color: white;
+    height: 30px;
+}
